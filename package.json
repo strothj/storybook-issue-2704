@@ -1,0 +1,26 @@
+{
+  "name": "storybook-issue-2704",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook:build": "build-storybook -c .storybook -o storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-knobs": "^3.3.8",
+    "@storybook/addons": "^3.3.8",
+    "@storybook/react": "^3.3.8",
+    "@types/storybook__addon-knobs": "^3.2.1",
+    "@types/storybook__react": "^3.0.6",
+    "babel-core": "^6.26.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "prop-types": "^15.6.0",
+    "react": "*",
+    "react-dom": "*"
+  }
+}
